@@ -11,3 +11,11 @@ function sumStr(a,b) {
   return sum.toString()
 }
 console.log(sumStr("4","5"))
+
+function paperWork(n, m) {
+  if (n < 0 || m < 0) {
+    return 0;
+  }
+  return n * m;
+}
+console.log(paperWork(2,6))
