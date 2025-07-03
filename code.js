@@ -19,3 +19,10 @@ function paperWork(n, m) {
   return n * m;
 }
 console.log(paperWork(2,6))
+
+function addLength(str) {
+  let result = [];
+  str.split(' ').forEach((elem)=> result.push(`${elem} ${elem.length}`));
+  return result;
+}
+console.log(addLength(["apple", "ban"]))
