@@ -6,11 +6,8 @@ function litres(time) {
 }
 console.log(litres(6.5))
 
-function paperwork(n, m) {
-    if(n < 0 || m < 0){
-        return 0;
-    }
-    return n * m;  
+function sumStr(a,b) {
+  const sum =  Number(a) + Number(b)
+  return sum.toString()
 }
-console.log(paperwork(2,10))
-
+console.log(sumStr("4","5"))
